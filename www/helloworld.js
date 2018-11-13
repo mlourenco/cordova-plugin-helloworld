@@ -6,6 +6,6 @@ module.exports = {
   show: function (message, success, failure) {
     var options = {};
     options.message = message;
-    cordova.exec(success, failure, 'ToastyPlugin', 'show', [options]);
+    cordova.exec(success, failure, 'HelloWorld', 'show', [options]);
   }
 }
