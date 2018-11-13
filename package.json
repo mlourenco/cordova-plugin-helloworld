@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-helloworld",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "cordova": {
+    "id": "cordova-plugin-helloworld",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlourenco/cordova-plugin-helloworld.git"
+  },
+  "keywords": [
+    "Toast",
+    "Notification",
+    "Message",
+    "Alert",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Manuel Lourenço",
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-helloworld" version="0.0.1">
+    <name>Hello world</name>
+
+    <description>An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.</description>
+    <license>MIT</license>
+
+    <keywords>cordova,android,toast,message,alert</keywords>
+    <repo>https://github.com/mlourenco/cordova-plugin-helloworld.git</repo>
+  
+    <engines>
+        <engine name="cordova" version=">=8.0.0"/>
+    </engines>
+  
+    <js-module src="www/helloworld.js" name="helloworld">
+        <clobbers target="window.plugins.helloworld" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="HelloWorld">
+                <param name="android-package" value="com.mobiag.cordova.plugin.helloworld"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/helloworld.java" target-dir="src/com/mobiag/cordova/plugin" />
+    </platform>
+</plugin>
