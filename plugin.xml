@@ -10,12 +10,8 @@
     <keywords>cordova,android,toast,message,alert</keywords>
     <repo>https://github.com/mlourenco/cordova-plugin-helloworld.git</repo>
   
-    <engines>
-        <engine name="cordova" version=">=8.0.0"/>
-    </engines>
-  
     <js-module src="www/helloworld.js" name="helloworld">
-        <clobbers target="window.plugins.helloworld" />
+        <clobbers target="helloworld" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
