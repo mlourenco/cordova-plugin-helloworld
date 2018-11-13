@@ -7,5 +7,9 @@ module.exports = {
     var options = {};
     options.message = message;
     cordova.exec(success, failure, 'HelloWorld', 'show', [options]);
+  },
+
+  test: function (success, failure) {
+    cordova.exec(success, failure, 'HelloWorld', 'test');
   }
 }
