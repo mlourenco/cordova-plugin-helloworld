@@ -14,9 +14,9 @@
         <clobbers target="helloworld" />
     </js-module>
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/widget">
             <feature name="HelloWorld">
-                <param name="android-package" value="com.mobiag.cordova.plugin.helloworld"/>
+                <param name="android-package" value="com.mobiag.cordova.plugin.HelloWorld"/>
             </feature>
         </config-file>
 
