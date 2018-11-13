@@ -20,6 +20,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/helloworld.java" target-dir="src/com/mobiag/cordova/plugin" />
+        <source-file src="src/android/HelloWorld.java" target-dir="src/com/mobiag/cordova/plugin" />
     </platform>
 </plugin>
